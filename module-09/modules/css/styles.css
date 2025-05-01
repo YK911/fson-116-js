@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: sans-serif;
+}
+
+h1 {
+  max-width: 500px;
+  min-height: 40px;
+  margin: 0 auto 30px;
+  padding: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  background-color: rebeccapurple;
+  color: white;
+  border-radius: 16px;
+}
+
+[name="subscription"] {
+  max-width: 500px;
+  padding: 24px;
+  margin: 0 auto;
+  border: 1px solid rebeccapurple;
+  border-radius: 16px;
+
+  label {
+    display: block;
+    margin-bottom: 24px;
+  }
+
+  span {
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  input {
+    width: 100%;
+    min-height: 48px;
+    padding: 0 16px;
+    border: 1px solid;
+    border-radius: 8px;
+
+    outline: transparent;
+  }
+
+  button {
+    width: 100%;
+    padding: 12px 24px;
+    background-color: rgba(102, 51, 153, 0.7);
+
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 150ms;
+
+    &:hover {
+      background-color: rebeccapurple;
+    }
+  }
+}
